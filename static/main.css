@@ -1,0 +1,52 @@
+:root {
+    --mainColor: #eaeaea;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: lightcoral;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-family: 'Russo One', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #111d5e;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+tr, input, td {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
+/* tr:nth-of-type(odd) { 
+    background: #fcf8e8; 
+  } */
+
+input {
+    padding: 6px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

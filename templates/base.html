@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>myFlaskApp</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+    <title>onjomaTaskMaster</title>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 </head>
 <body>
-    {% block body %}{% endblock %}
+    <div class="main-container">
+        {% block body %}{% endblock %}
+    </div>
+    
 </body>
 </html>
